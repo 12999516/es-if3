@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<head>
+    <title>esif3-1</title>
+    <meta charset="UTF-8">
+</head>
+<body>
+    <h1>Galleria di immagini</h1>
+    
+    <label for="paes">che paesaggio vuoi vedere?</label>
+    <select name="paes" id="pa">
+    <option value="B">seleziona</option>
+    <option value="MA">mare</option>
+    <option value="MO">montagna</option>
+    <option value="C">città</option>
+    </select>
+    <h2>lo vuoi a colori o in bianco e nero?</h2>
+    <input type="radio" id="colour" name="img" value="COL">
+    <label for="colour">colori</label><br>
+    <input type="radio" id="b&W" name="img" value="BW">
+    <label for="b&w">bianco e nero</label>
+    <button onclick="showimg">mostra immagine</button>
+</body>
